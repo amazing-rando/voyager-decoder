@@ -18,8 +18,6 @@ The code provided here takes a user specified WAV file containing images encoded
 
 ## Dependencies
 
-For this code to successfully run, it must be provided with an audio file containing images encoded in the same manner as those found on the Voyager space probe's golden record.  For reference, an archival copy of the golden record's encoded images has been provided as a [WAV (160MB)](https://drive.google.com/uc?export=download&id=11C4H4xGmz6vTrrJKVVR6urvxhrzUfC5I).
-
   * [PeakUtils](https://peakutils.readthedocs.io/en/latest/)
   * [matplotlib](https://matplotlib.org/)
   * [scipy](https://www.scipy.org/)
@@ -28,6 +26,8 @@ For this code to successfully run, it must be provided with an audio file contai
 You can use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies.
 
 ## Basic Usage
+
+For this code to successfully run, it must be provided with an audio file containing images encoded in the same manner as those found on the Voyager space probe's golden record.  For reference, an archival copy of the golden record's encoded images has been provided as a [WAV (160MB)](https://drive.google.com/uc?export=download&id=11C4H4xGmz6vTrrJKVVR6urvxhrzUfC5I).
 
 The decoding script contains several user-editable variables that should be changed for fine tuning.  The script is executed by running:
 
