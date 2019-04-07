@@ -43,4 +43,4 @@ Peak detection will be refined to fix line offset artifacts that are visible in 
 
 ## Acknowledgements
 
-This project was inspired by [foodini](https://github.com/foodini/voyager)'s decoder writtern in C++.
+This project was inspired by [foodini](https://github.com/foodini/voyager)'s decoder written in C++.
