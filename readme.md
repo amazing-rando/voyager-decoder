@@ -19,13 +19,14 @@ The code provided here takes a user specified WAV file containing images encoded
 ## Dependencies
 
   * [PeakUtils](https://peakutils.readthedocs.io/en/latest/)
+  * [Pillow](https://pillow.readthedocs.io/en/stable/)
   * [matplotlib](https://matplotlib.org/)
   * [scipy](https://www.scipy.org/)
   * [numpy](http://www.numpy.org/)
 
 You can use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies.
 
-## Basic Usage
+## Decoding Images
 
 For this code to successfully run, it must be provided with an audio file containing images encoded in the same manner as those found on the Voyager space probe's golden record.  For reference, an archival copy of the golden record's encoded images has been provided as a [WAV (160MB)](https://drive.google.com/uc?export=download&id=11C4H4xGmz6vTrrJKVVR6urvxhrzUfC5I).
 
@@ -37,9 +38,17 @@ python voyager_decode.py
 
 Included color images were processed by hand.
 
-## Future Directions
+## Encoding Images
 
-Peak detection will be refined to fix line offset artifacts that are visible in some extracted images.  Additionally, a tool to encode user images as audio will be added.
+A custom golden-record-like audio file can be generated using your own images by utilizing the included WAV encoding script.  The method of encoding is not identical to that used to encode the original golden record data but it is similar and compatible with my decoding methods.
+
+This code takes all the PNG files in a user specified directory, converts them to grayscale, resizes them appropriately, and converts them into an audio signal.  The script is executed by running:
+
+```
+python voyager_encode.py
+```
+
+An example WAV file with its extracted contents as well as source images are available in the *test-images* directory.
 
 ## Acknowledgements
 

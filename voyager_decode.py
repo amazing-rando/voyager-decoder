@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 
 #Set variables - Most determined emperically.
 WAVFILE = "./voyager_images.wav"    #Encoded image WAV file
-SAVDIR = "./extracted/"                #Directory to save extracted images
-OFFSET = 10**6                      #Samples to ignore at start of file
+SAVDIR = "./extracted/"             #Directory to save extracted images
+OFFSET = 10 ** 6                    #Samples to ignore at start of file
 IMGDIST = 25 ** 4                   #Samples between images
 IMGTHR = 0.85                       #Peak threshold %-age for image start
 LINDIST = 10 ** 3                   #Samples between lines of an image
