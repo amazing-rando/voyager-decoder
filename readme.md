@@ -8,11 +8,11 @@ In the event that an intelligent extraterrestrial being ever comes across either
 
 One side of the record contains [audio recordings](https://ozmarecords.com/pages/voyager) that include greetings in multiple languages as well as sounds and music from around the world.  The other side of this record, however, contains a series of 115 images compiled by [Carl Sagan](https://en.wikipedia.org/wiki/Carl_Sagan).  These images are stored as audio split across both left and right stereo channels.  Using the instructions engraved on the record's cover, Voyager's encoded images can be visualized using Python!
 
-![Decoded image depicting the composition of DNA.](./images/mono020.png)
+![Decoded image depicting the composition of DNA.](./extracted/mono020.png)
 
 Above is an example of the image data contained on the record.  These images span a range of subject matter including the natural, cultural, and scientific.  Although many of the [original images](https://voyager.jpl.nasa.gov/golden-record/whats-on-the-record/images/) are available online, there is something special about extracting them from the record's signal.
 
-![Decoded color image of the Earth with the chemical composition of our atmosphere superimposed.](./images/color016-018.png)
+![Decoded color image of the Earth with the chemical composition of our atmosphere superimposed.](./extracted/color016-018.png)
 
 The code provided here takes a user specified WAV file containing images encoded in the same manner as those found on the Voyager space probe's golden record and outputs each of these images as separate grayscale PNG files.  Images that come in sets of 3 are in color and represent blue, green, and red channels in order.  All graphics extracted from the golden record's data (including color images like the one seen above) have been included here in the *extracted* folder.
 
