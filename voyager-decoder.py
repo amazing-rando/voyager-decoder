@@ -1,8 +1,9 @@
-import numpy as np
 from pathlib import Path
+import sys
+
+import numpy as np
 from PIL import Image
 import scipy
-import sys
 
 
 # Set constants.
